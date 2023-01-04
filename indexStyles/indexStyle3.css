@@ -1,0 +1,148 @@
+
+.food-sortiments{
+    width: 100%;
+    height: 1500px;
+
+    display: flex;
+    justify-content: right;
+
+    cbackground: rgba(255, 0, 0, 0.199);
+    
+}
+
+.food-sortiments-holder{
+    width: 100%;
+    height: 100%;
+
+    cbackground: rgba(255, 0, 0, 0.199);
+
+    display: grid;
+    grid-template-columns: repeat(4, 600px);
+    grid-template-rows: repeat(4, 250px);
+    gap: 25px;
+
+}
+
+.food-panel{
+    padding-bottom: 15px;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 5px;
+
+    display: flex;
+
+
+    width: 100%;
+    height: 17vh;
+}
+
+.food-panel section{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 15px;
+
+    cbackground: rgba(255, 0, 0, 0.199);
+
+    display: grid;
+    grid-template-columns: min-content auto;
+
+}
+
+.fi-img{
+    width: 17vh;
+    height: 100%;
+
+    margin: 5px;
+
+    background: rgba(255, 0, 0, 0.199);
+
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 15px;
+}
+
+.food-info-panel{
+}
+
+.food-info-panel h1{
+    color: var(--second-color);
+
+    text-transform: capitalize;
+    font-size: 35px;
+
+    margin-bottom: -5px;
+}
+
+.food-info-panel p{
+    color: black;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.food-panel h2{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 15vh;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.food-panel h2 span{
+    color: var(--second-color);
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 2px;
+}
+
+.food-panel:nth-child(1) .fi-img{
+    background-image: url("../images/pizza1.jpeg");
+}
+
+.food-panel:nth-child(2) .fi-img{
+    background-image: url("../images/burger1.jpeg");
+}
+
+.food-panel:nth-child(3) .fi-img{
+    background-image: url("../images/pasta1.jpeg");
+}
+
+.food-panel:nth-child(4) .fi-img{
+    background-image: url("../images/burger1.jpeg");
+}
+
+.food-panel:nth-child(5) .fi-img{
+    background-image: url("../images/burger1.jpeg");
+}
+
+
+@media (max-width: 2200px){
+    
+}
+
+@media (max-width: 1480px){
+
+    
+}
+
+@media (max-width: 1100px){
+    .food-type{
+        height: 40px;
+    }
+
+    .food-sortiments-holder{
+        display: block;
+    }
+}
+
+@media (max-width: 920px){
+	
+}
+
+@media (max-width: 840px){
+	
+}
+
